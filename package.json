@@ -1,0 +1,64 @@
+{
+  "name": "front-end-happy-hour",
+  "version": "0.0.3",
+  "description": "Front End Happy Hour website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "node build && gulp beautify-html",
+    "postmerge": "yarn install",
+    "postrewrite": "yarn install",
+    "start": "gulp",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FrontEndHappyHour/frontendhappyhour.github.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FrontEndHappyHour/frontendhappyhour.github.io/issues"
+  },
+  "homepage": "https://github.com/FrontEndHappyHour/frontendhappyhour.github.io",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^6.0.2",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify": "^16.1.0",
+    "canvas": "^2.6.1",
+    "eslint": "^2.7.0",
+    "eslint-plugin-babel": "^3.2.0",
+    "gulp": "^4.0.0",
+    "gulp-beautify": "^3.0.0",
+    "gulp-eslint": "^2.1.0",
+    "gulp-jsonlint": "^1.1.1",
+    "gulp-nodeunit": "0.0.5",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.0.0",
+    "gulp-uglify": "^3.0.1",
+    "husky": "^0.14.3",
+    "jshint-stylish": "^2.1.0",
+    "node-sass": "^7.0.0",
+    "prompt": "^1.0.0",
+    "tape": "^4.5.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "ellipsize": "0.0.2",
+    "fancy-log": "^1.3.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-svgmin": "^2.2.0",
+    "jsonfile": "^2.2.3",
+    "lodash": "^4.17.21",
+    "merge-stream": "^1.0.1",
+    "mkdirp": "^0.5.1",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "request": "^2.88.2"
+  }
+}
